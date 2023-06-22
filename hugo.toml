@@ -1,3 +1,47 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://bonjune.github.io/'
+languageCode = 'ko-kr'
+title = 'Life of Engineer<Computer>'
+theme = 'LoveIt'
+
+hasCJKLanguage = true
+paginate = 12
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[author]
+    name = "Bongjun Jang"
+    email = "bongjun.jang@kaist.ac.kr"
+
+# [menu]
+#   [[menu.main]]
+#     weight = 1
+#     identifier = "blog"
+#     pre = ""
+#     post = ""
+#     name = "Blog"
+#     url = "/blog/"
+#     title = "Blog"
+
+[params]
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "auto"
+
+  # public git repo url only then enableGitInfo is true
+  gitRepo = "https://github.com/dillonzq/LoveIt"
+
+  # which hash function used for SRI, when empty, no SRI is used
+  # ["sha256", "sha384", "sha512", "md5"]
+  fingerprint = "sha256"
+
+  # date format
+  dateFormat = "2006-01-02"
+
+  # website title for Open Graph and Twitter Cards
+  title = "Engineer<Computer>"
+
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "Life of Engineer<Computer>"
+
+  # website images for Open Graph and Twitter Cards
+  images = ["/logo.png"]
