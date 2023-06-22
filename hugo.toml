@@ -1,10 +1,10 @@
 baseURL = 'https://bonjune.github.io/'
-languageCode = 'ko-kr'
+languageCode = 'ko'
+languageName = 'Korean'
 title = 'Life of Engineer<Computer>'
 theme = 'LoveIt'
 
 hasCJKLanguage = true
-paginate = 12
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
@@ -38,10 +38,63 @@ enableEmoji = true
   dateFormat = "2006-01-02"
 
   # website title for Open Graph and Twitter Cards
-  title = "Engineer<Computer>"
+  title = "Life of Engineer<Computer>"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Life of Engineer<Computer>"
 
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    # 桌面端导航栏模式 ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    # 移动端导航栏模式 ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # Header title config
+    # 页面头部导航栏标题配置
+    [params.header.title]
+      # URL of the LOGO
+      # LOGO 的 URL
+      logo = ""
+      # title name
+      # 标题名称
+      name = "Life of Engineer<Computer>"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+      post = ""
+      # whether to use typeit animation for title name
+      # 是否为标题显示打字机动画
+      typeit = false
+  [params.home]
+    # LoveIt NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = ""
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "Code at day && Debug at night"
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = ""
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
