@@ -2,7 +2,6 @@
 title: "2019 Vagabonder 1"
 subtitle: 여행의 시작, 블라디보스토크에서
 date: 2021-09-20T21:12:00+09:00
-author: "Jang, Bonjune"
 featuredImagePreview: 20190611_233427.jpg
 categories: ["vagabonder"]
 ---

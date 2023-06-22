@@ -2,7 +2,6 @@
 title: 컴퓨터와 시간
 subtitle: 컴퓨터의 시계는 어떻게 작동할까
 date: 2021-08-28T12:35:23+09:00
-author: "Jang, Bonjune"
 categories: ["computer"]
 featuredImagePreview: pat_sync.jpg
 tags: ["computer", "systems"]

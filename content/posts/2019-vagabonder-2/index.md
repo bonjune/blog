@@ -2,7 +2,6 @@
 title: 2019 Vagabonder 2
 subtitle: 바이칼 호수 여행기
 date: 2021-09-23T15:57:31+09:00
-author: "Jang, Bonjune"
 featuredImagePreview: 20190903_111822.jpg
 categories: ["vagabonder"]
 ---

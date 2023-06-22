@@ -5,7 +5,6 @@ date: 2021-11-22T21:23:00+09:00
 categories: ["knowledge"]
 tags: ["bitcoin", "economics", "blockchain"]
 featuredImagePreview: bitcoin.jpeg
-author: "Jang, Bonjune"
 ---
 
 

@@ -3,7 +3,6 @@ title: 액터 모델 실습
 subtitle: Leveraging Elixir GenServer
 featuredImagePreview: actor-model.png
 date: 2021-11-29T08:54:51+09:00
-author: Jang, Bonjune
 categories:
   - computer
 tags:

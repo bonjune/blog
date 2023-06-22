@@ -5,7 +5,6 @@ date: 2021-11-17T15:53:34+09:00
 categories: ["knowledge"]
 tags: ["economics"]
 featuredImagePreview: money.jpg
-author: "Jang, Bonjune"
 ---
 
 우리가 일상에서 겪는 모든 경제활동에서 우리는 값을 치를 때 화폐(money)를 사용한다.

@@ -2,7 +2,6 @@
 title: 쿠키런 킹덤 서버 아키텍처 2
 subtitle: CRUD와 이벤트 소싱 비교하기
 date: 2021-08-30T20:19:15+09:00
-author: "Jang, Bonjune"
 categories: ["computer"]
 featuredImagePreview: tickets.jpg
 tags: ["computer", "crud", "event-sourcing"]
