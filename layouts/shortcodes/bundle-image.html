@@ -1,5 +1,6 @@
 {{ $altText := .Get "alt"}}
 {{ $caption := .Get "caption"}}
+{{ $width := .Get "width" }}
 
 {{ with $.Page.Resources.GetMatch (.Get "name") }}
   <figure>
