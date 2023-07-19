@@ -27,7 +27,7 @@ cp ../CNAME CNAME
 git commit -m "$msg"
 
 # Push source and build repos.
-git push $REMOTE $BRANCH
+git push $REMOTE $BRANCH --force
 
 # Come Back up to the Project Root
 cd ..
