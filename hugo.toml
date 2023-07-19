@@ -1,7 +1,7 @@
 baseURL = 'https://bonjune.github.io/'
 languageCode = 'ko'
 languageName = 'Korean'
-title = 'Life of Engineer<Computer>'
+title = 'Bongjun Jang'
 theme = 'LoveIt'
 
 hasCJKLanguage = true
@@ -60,7 +60,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "Life of Engineer<Computer>"
+      name = "Bongjun Jang"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -81,9 +81,9 @@ enableEmoji = true
       # URL of avatar shown in home page
       avatarURL = ""
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
+      title = "Student&lt;Computer Science&gt;"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = ""
+      subtitle = "Do I want to build something useful?"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
