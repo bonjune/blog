@@ -81,7 +81,7 @@ enableEmoji = true
       # URL of avatar shown in home page
       avatarURL = ""
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "Code at day && Debug at night"
+      title = ""
       # subtitle shown in home page (HTML format is supported)
       subtitle = ""
       # whether to use typeit animation for subtitle
