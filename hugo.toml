@@ -38,10 +38,10 @@ enableEmoji = true
   dateFormat = "2006-01-02"
 
   # website title for Open Graph and Twitter Cards
-  title = "Life of Engineer<Computer>"
+  title = "Bongjun Jang"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Life of Engineer<Computer>"
+  description = "Bongjun Jang's personal blog"
 
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
