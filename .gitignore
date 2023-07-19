@@ -1,3 +1,8 @@
+# OS / Cloud Sync Artifacts
 .DS_Store
 .obsidian
 .tmp.driveupload
+
+# Hugo Artifacts
+.hugo_build.lock
+resources/_gen
