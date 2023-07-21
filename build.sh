@@ -24,6 +24,8 @@ echo "$msg"
 
 cp ../CNAME CNAME
 
+git add CNAME
+
 git commit -m "$msg"
 
 # Push source and build repos.
