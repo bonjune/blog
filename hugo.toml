@@ -13,19 +13,26 @@ enableEmoji = true
     name = "Bongjun Jang"
     email = "bongjun.jang@kaist.ac.kr"
 
-# [menu]
-#   [[menu.main]]
-#     weight = 1
-#     identifier = "blog"
-#     pre = ""
-#     post = ""
-#     name = "Blog"
-#     url = "/blog/"
-#     title = "Blog"
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = "Posts"
+
+  [[menu.main]]
+    weight = 2
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    title = "Projects"
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "light"
 
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/dillonzq/LoveIt"
