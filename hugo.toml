@@ -23,20 +23,6 @@ name = "Posts"
 url = "/posts/"
 title = "Posts"
 
-[[menu.main]]
-weight = 2
-identifier = "projects"
-name = "Projects"
-url = "/projects/"
-title = "Projects"
-
-[[menu.main]]
-weight = 3
-identifier = "travels"
-name = "Travels"
-url = "/travels/"
-title = "Travels"
-
 [params]
 # site default theme ["auto", "light", "dark"]
 defaultTheme = "light"
