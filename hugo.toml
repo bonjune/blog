@@ -101,7 +101,15 @@ disclaimer = ""
 [params.home.posts]
 enable = true
 # special amount of posts in each home posts page
-paginate = 6
+# paginate = 6
 # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
 # default behavior when you don't set "hiddenFromHomePage" in front matter
-defaultHiddenFromHomePage = false
+# defaultHiddenFromHomePage = false
+
+[params.page]
+[params.page.math]
+enable = true
+[params.page.code]
+copy = true
+[params.page.comment]
+enable = false
