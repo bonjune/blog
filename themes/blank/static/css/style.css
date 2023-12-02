@@ -1,0 +1,16 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+code {
+    font-family: 'Consolas';
+
+}
+
+div .highlight {
+    border-radius: 5%;
+}
+
+div .highlight > pre {
+    padding: 1em;
+}
