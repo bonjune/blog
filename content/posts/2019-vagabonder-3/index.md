@@ -3,12 +3,14 @@ title: 2019 Vagabonder 3
 subtitle: 아름다운 이르쿠츠크를 떠나 노보시비르스크로
 date: 2021-10-07T17:36:51+09:00
 categories: ["vegabonder"]
+tags: ["travel"]
 featuredImagePreview: music-in-train.jpg
 ---
 
 {{<bundle-image name="angara-river.jpg" alt="이르쿠츠크의 앙가라 강" caption="이르쿠츠크의 앙가라 강">}}
 
 {{<bundle-image name="night.jpg" alt="night of Irkutsk" caption="이르쿠츠크의 야경">}}
+
 ## 이르쿠츠크
 
 9월 4일, 바이칼 호수 투어를 마치고 이르쿠츠크로 돌아온 승민이와 나.
@@ -49,7 +51,6 @@ featuredImagePreview: music-in-train.jpg
 시베리아 지방의 도시들을 가면 이런 모험과 도전 정신을 기리는 동상을 많이 볼 수 있다.
 이 때 개척을 시작했던 사람들이 바로 코사크 사람들인데 이르쿠츠크 앙가라 강 바로 옆에는 이렇게 늠름한 코사크 동상이 하나 세워져있다.
 개척자의 옷과 총을 들고 있는 동상과 아름다운 건축 양식을 뽐내는 이르쿠츠크의 건물이 서로 대비된다.
-
 
 {{<bundle-image name="eternal-flame.jpg" alt="eternal flame" caption="꺼지지 않는 불꽃">}}
 
