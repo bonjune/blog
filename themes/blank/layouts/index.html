@@ -5,8 +5,39 @@
     <li>Email: {{ .Site.Params.Author.Email }}</li>
   </ul>
 
+  <h2>Posts</h2>
   <ul>
     {{ range where .Site.RegularPages "Type" "posts" }}
+    <li>
+      {{ .Date.Format "2006 Jan 2" }} -
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>School Projects</h2>
+  <ul>
+    {{ range where .Site.RegularPages "Type" "school-projects" }}
+    <li>
+      {{ .Date.Format "2006 Jan 2" }} -
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>Notes</h2>
+  <ul>
+    {{ range where .Site.RegularPages "Type" "notes" }}
+    <li>
+      {{ .Date.Format "2006 Jan 2" }} -
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>Travelog</h2>
+  <ul>
+    {{ range where .Site.RegularPages "Type" "travel" }}
     <li>
       {{ .Date.Format "2006 Jan 2" }} -
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
