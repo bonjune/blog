@@ -4,6 +4,6 @@ languageName = 'Korean'
 title = 'Bongjun Jang'
 theme = 'blank'
 
-[author]
+[params.author]
 name = "Bongjun Jang"
-email = "bongjun.jang@kaist.ac.kr"
+email = "bongjun.jang [at] kaist.ac.kr"
