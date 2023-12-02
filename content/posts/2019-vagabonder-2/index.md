@@ -4,6 +4,7 @@ subtitle: 바이칼 호수 여행기
 date: 2021-09-23T15:57:31+09:00
 featuredImagePreview: 20190903_111822.jpg
 categories: ["vagabonder"]
+tags: ["travel"]
 ---
 
 {{<bundle-image name="20190903_110858.jpg" caption="바이칼 호수와 새들">}}
@@ -33,7 +34,6 @@ categories: ["vagabonder"]
 땅덩어리는 이렇게 넓은데 인구가 우리나라의 3배밖에 안되니 전국의 도로를 말끔히 정비하는 건 불가능에 가깝지 않을까 생각했다.
 
 {{<bundle-image name="route.png" caption="올혼섬 후지르까지 6시간이 걸린다">}}
-
 
 ## 올혼섬 스베트 라나
 
@@ -68,9 +68,6 @@ categories: ["vagabonder"]
 
 올혼섬에서 바이칼 호수를 보고 있으면 바다에 둘러쌓여 있으면서도 그 너머에 있는 땅이 이 곳을 감싸고 있다는 감상이 든다.
 다른 곳에서 쉽게 볼 수 없는 풍경이다. 다른 곳과는 다른 특별한 모습에 예전에 이곳에 있었던 사람들은 이곳이 자연이나 신과 연결된 곳이라고 믿었던 것 같다.
-
-
-
 
 {{<bundle-image name="20190903_111822.jpg" caption="올혼섬의 교통수단 UAZ">}}
 
