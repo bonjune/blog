@@ -1,26 +1,24 @@
-{{ $altText := .Get "alt"}}
-{{ $caption := .Get "caption"}}
-{{ $width := .Get "width" }}
-
-{{ with $.Page.Resources.GetMatch (.Get "name") }}
-  <figure>
-    <div>
-      <img
-        srcset='
+{{ $altText := .Get "alt"}} {{ $caption := .Get "caption"}} {{ $width := .Get
+"width" }} {{ with $.Page.Resources.GetMatch (.Get "name") }}
+<figure>
+  <div>
+    <img
+      srcset='
                 {{ (.Resize "320x" ).RelPermalink }} 320w,
                 {{ (.Resize "600x" ).RelPermalink }} 600w,
-                {{ (.Resize "1200x").RelPermalink }} 2x'
-        src='{{ (.Resize "600x").RelPermalink }}'
-        alt="{{$altText}}" />
-    </div>
-    <figcaption>
-      <p>{{ $caption }}</p>
-    </figcaption>
-  </figure>
-{{ else }}
-  <div class="flex justify-center items-center border border-gray-600 w-full h-24">
-    <p>
-      Could not find image: {{ .Get "name" }}
-    </p>
+                {{ (.Resize "900x" ).RelPermalink }} 900w,
+                {{ (.Resize "1200x").RelPermalink }} 1200x'
+      sizes="(max-width: 320px) 280px, (max-width: 600px) 560px, 800px"
+      src='{{ (.Resize "600x").RelPermalink }}'
+      alt="{{$altText}}"
+    />
   </div>
+  <figcaption>
+    <p>{{ $caption }}</p>
+  </figcaption>
+</figure>
+{{ else }}
+<div>
+  <p>Could not find image: {{ .Get "name" }}</p>
+</div>
 {{ end }}
