@@ -4,4 +4,5 @@ date: 2023-10-16T00:49:00
 draft: true
 ---
 
-동전을 던져 앞면과 뒷면이 나올 확률은 각각 50%라고 우리는 믿는다.
+There is a concept called computational indistinguishability, which is defined using a game.
+An adversary submits a message m
