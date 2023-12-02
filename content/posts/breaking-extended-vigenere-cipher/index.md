@@ -91,7 +91,7 @@ That is, i-th ciphertext of key length k is encrypted from i-th plaintext of the
 
 ## Is entropy a good method?
 
-{{<figure src="entropy_plot_30.png" title="entropy test with N=30 and std multiplier of 0.186" >}}
+{{<bundle-image name="entropy_plot_30.png" title="entropy test with N=30 and std multiplier of 0.186" >}}
 
 The plot shows how many cases can be guessed correctly measuring entropy.
 For each difference (substration of ciphertext to plaintext), I calculated entropy of the difference of the first 30(N) characters.
@@ -116,7 +116,7 @@ Then we needed to find a way to eliminate the random characters at the beginning
 So, to recover the repeating pattern in the difference, I used again entropy!
 A simple idea that if a random character is removed entropy will decrease is used here.
 
-{{<figure src="entropy_and_removal_entropy.png" title="just entropy test, and entropy change with a character removed">}}
+{{<bundle-image name="entropy_and_removal_entropy.png" title="just entropy test, and entropy change with a character removed">}}
 
 The left plot shows that mere entropy test does not tell anything about the entropy here.
 (The correct answer is 3, but the entropy of that one is the largest!)
@@ -130,7 +130,7 @@ But we need more evidence the numbers are repeating or not.
 
 ## Fourier Transform
 
-{{<figure src="fft-pattern.png" title="Fourier Transform of the difference">}}
+{{<bundle-image name="fft-pattern.png" title="Fourier Transform of the difference">}}
 
 This figure shows magnitudes of Fourier Transform computed on the difference which shows the repeating pattern.
 You see how many zero-magnitude frequencies are there in the plot?
@@ -144,7 +144,7 @@ So the pipeline now looks like this:
 2. If not, try removing a character with entropy change and run FFT test.
 3. If failed to find a repeating pattern, just pick the one with the lowest entropy.
 
-{{<figure src="result1.png" >}}
+{{<bundle-image name="result1.png" >}}
 
 It now correctly decrypts 47.62 percent of all test cases just in 100 miliseconds. Looks good!
 But, I wanted to go further.
@@ -168,7 +168,7 @@ If there is a significantly low entropy, run FFT test.
 
 Now the result is more satisfactory.
 
-{{<figure src="result2.png" >}}
+{{<bundle-image name="result2.png" >}}
 
 It correctly decrypts 63.81% of all test cases with maximum 17s running time.
 
