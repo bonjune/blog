@@ -1,6 +1,11 @@
 {{ define "main" }}
 <main>
   <ul>
+    <li><a href="https://github.com/bonjune">Github</a></li>
+    <li>Email: {{ .Site.Params.Author.Email }}</li>
+  </ul>
+
+  <ul>
     {{ range where .Site.RegularPages "Type" "posts" }}
     <li>
       {{ .Date.Format "2006 Jan 2" }} -
