@@ -1,5 +1,9 @@
 {{ define "main" }}
 <main>
+  <img
+    src="{{- (resources.Get "/images/bongjun-washington-monument.jpg").RelPermalink -}}"
+    width="180"
+    />
   <ul>
     <li><a href="https://github.com/bonjune">Github</a></li>
     <li>Email: {{ .Site.Params.Author.Email }}</li>
