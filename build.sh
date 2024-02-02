@@ -5,42 +5,39 @@ BRANCH=main
 
 # Reference: https://github.com/Integerous/Integerous.github.io
 
-echo "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo "Deploying updates to GitHub..."
 
 # Build the project.
 hugo
 
-# Go To Public folder
+# Go to public submodule
 cd public
-# Add changes to git.
+
+# stage newly built site
 git add .
 
-# Commit changes.
-msg="rebuilding site `date`"
+msg="[Hugo] rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
 echo "$msg"
 
-cp ../CNAME CNAME
-
-git add CNAME
-
+# recover deleted CNAME (hugo always deletes this!)
+git restore CNAME
 git commit -m "$msg"
 
-# Push source and build repos.
-git push $REMOTE $BRANCH --force
+# push site to the deployment repo
+git push "$REMOTE" "$BRANCH" --force
 
 # Come Back up to the Project Root
 cd ..
 
-# blog 저장소 Commit & Push
+# you need this to bump the public submodule
 git add .
 
-msg="rebuilding site `date`"
+msg="[Bump] bump newly built site"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
-
-git push $REMOTE $BRANCH
+git push "$REMOTE" "$BRANCH"
