@@ -25,3 +25,28 @@ body header {
     font-family: 'Times New Roman';
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+#my-pic {
+    max-width: 8rem;
+}
+
+@media screen and (min-width: 768px) {
+    #personal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #my-pic {
+        grid-column: 1 / 2;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #info {
+        grid-column: 2 / 2;
+    }
+}
