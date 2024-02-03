@@ -14,3 +14,14 @@ div .highlight {
 div .highlight > pre {
     padding: 1em;
 }
+
+body {
+    width: 85%;
+    max-width: calc(100% - 2rem);
+    margin: 0 auto;
+}
+
+body header {
+    font-family: 'Times New Roman';
+}
+

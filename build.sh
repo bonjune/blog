@@ -39,5 +39,5 @@ msg="[Bump] bump newly built site"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
-git commit -m "$msg"
+git commit
 git push "$REMOTE" "$BRANCH"
