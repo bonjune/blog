@@ -30,6 +30,15 @@ ul {
     list-style: none;
 }
 
+article figure {
+    border: 1px red;
+    margin: 0;
+}
+
+figure img {
+  width: 100%;
+}
+
 #my-pic {
     max-width: 8rem;
 }
