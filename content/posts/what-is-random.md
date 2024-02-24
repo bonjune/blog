@@ -1,6 +1,7 @@
 ---
 title: What is Randomness?
 date: 2023-12-12
+categories: ["Random"]
 ---
 
 Short Answer: You call something is random because the best thing you can tell about it is just a guess.
@@ -10,7 +11,7 @@ Short Answer: You call something is random because the best thing you can tell a
 
 An intesting example that enligntened me was the famous coin toss problem.
 We believe that the coin toss is a 50/50 experiment.
-That's because we toss coin for deciding which side will take the turn first in a game. We believe it is fair.
+That's why we toss coin for deciding which side will take the turn first in a game. We believe it is fair.
 But recent findings suggest that our belief could be wrong: the experiment is not 50/50.
 In fact, a coin tends to land on the same side they started for a probability of 50.8%.
 
@@ -19,7 +20,7 @@ But how? To answer this, we have to go back to the first place and ask ourselves
 I want to put it this way: because we were not able to ponder all the statistical and physical intricacies.
 But now we are. Therefore, we have better ways to understand the probability of coin tosses.
 
-This framework that claims if we can see more we can guess better works for various cases.
+This framework that claims, if we can see more, we can guess better works for various cases.
 The best examples are from cryptography, which uses this notion extensively.
 
 1. MD5 hash used to be considered secure, because the best way to predict the outcome of the hash was just randomly guessing. But now we have more powerful computers and better algorithms to guess the output, it is not random anymore.

@@ -1,8 +1,8 @@
 ---
 title: "Odroid 개발보드에서 Zig와 C를 같이 사용하기"
 date: 2023-06-29T13:00:00+09:00
+categories: ["Software Engineering"]
 featuredImagePreview: ziglang.png
-tags: ["zig", "c", "programming"]
 ---
 
 {{<bundle-image name="odroidn2plus.jpg" alt="Odroid-N2+ Development Board" caption="Odroid-N2+ 개발 보드"  width="50%">}}

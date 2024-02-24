@@ -1,6 +1,7 @@
 ---
 title: "How Do You Install a Software?"
 date: 2023-07-19T11:56:29+09:00
+categories: ["Software Engineering"]
 draft: true
 ---
 

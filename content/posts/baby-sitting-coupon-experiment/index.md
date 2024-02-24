@@ -2,7 +2,7 @@
 title: "베이비 시팅 쿠폰 실험"
 subtitle: "통화시스템 이해하기"
 date: 2021-11-17T15:53:34+09:00
-categories: ["knowledge"]
+categories: ["Random"]
 tags: ["economics"]
 featuredImagePreview: money.jpg
 ---

@@ -2,8 +2,7 @@
 title: "비트코인을 지탱하는 원동력"
 subtitle: 비트코인 뒤의 경제학
 date: 2021-11-22T21:23:00+09:00
-categories: ["knowledge"]
-tags: ["bitcoin", "economics", "blockchain"]
+categories: ["Random"]
 featuredImagePreview: bitcoin.jpeg
 ---
 

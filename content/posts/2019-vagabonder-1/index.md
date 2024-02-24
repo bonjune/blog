@@ -3,8 +3,7 @@ title: "2019 Vagabonder 1"
 subtitle: 여행의 시작, 블라디보스토크에서
 date: 2021-09-20T21:12:00+09:00
 featuredImagePreview: 20190611_233427.jpg
-categories: ["vagabonder"]
-tags: ["travel"]
+categories: ["Vagabonder"]
 ---
 
 > 기억에 남지 않는 것을 써라.

@@ -1,7 +1,7 @@
 ---
 title: "IoT를 이루는 네트워크: ZigBee"
 date: 2023-06-23T05:26:32+09:00
-tags: ["network", "iot", "zigbee"]
+categories: ["Software Engineering"]
 draft: true
 ---
 

@@ -5,7 +5,7 @@ date: 2021-10-03T13:55:57+09:00
 draft: true
 thumbnail: lazy-cat.jpg
 categories:
-  - computer
+  - HOWTO
 tags:
   - hugo
   - html
