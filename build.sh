@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 REMOTE=origin
 BRANCH=main
@@ -35,9 +36,5 @@ cd ..
 # you need this to bump the public submodule
 git add .
 
-msg="[Bump] bump newly built site"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit
+git commit -m "[Bump] bump newly built site"
 git push "$REMOTE" "$BRANCH"
