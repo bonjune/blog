@@ -1,12 +1,8 @@
 {{ define "main" }}
 <main>
   <div id="personal">
-    <img
-      id="my-pic"
-      src="{{- (resources.Get "/images/bongjun-washington-monument.jpg").RelPermalink -}}"
-      width="60%"
-      alt="bongjun-in-washington-dc"
-      />
+    <img id="my-pic" src="{{- (resources.Get "/images/bongjun-washington-monument.jpg").RelPermalink -}}" width="60%"
+      alt="bongjun-in-washington-dc" />
 
     <section id="info">
       <h3>Contacts</h3>
@@ -33,36 +29,6 @@
   <h2>Posts</h2>
   <ul>
     {{ range where .Site.RegularPages "Type" "posts" }}
-    <li>
-      {{ .Date.Format "2006 Jan 2" }} -
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
-
-  <h2>School Projects</h2>
-  <ul>
-    {{ range where .Site.RegularPages "Type" "school-projects" }}
-    <li>
-      {{ .Date.Format "2006 Jan 2" }} -
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
-
-  <h2>Notes</h2>
-  <ul>
-    {{ range where .Site.RegularPages "Type" "notes" }}
-    <li>
-      {{ .Date.Format "2006 Jan 2" }} -
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
-
-  <h2>Travelog</h2>
-  <ul>
-    {{ range where .Site.RegularPages "Type" "travel" }}
     <li>
       {{ .Date.Format "2006 Jan 2" }} -
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
