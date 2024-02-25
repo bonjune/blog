@@ -12,7 +12,7 @@
       </ul>
 
       <h3>Research Interest</h3>
-      <p>Programming Langauges, Fuzzing</p>
+      <p>Programming Languages, Fuzzing, Compilers</p>
 
       <h3>Education</h3>
       <p>
@@ -27,13 +27,29 @@
   </div>
 
   <h2>Posts</h2>
-  <ul>
-    {{ range where .Site.RegularPages "Type" "posts" }}
-    <li>
-      {{ .Date.Format "2006 Jan 2" }} -
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range where .Site.RegularPages "Type" "posts" }}
+      <tr>
+        <td>{{ .Date.Format "2006 Jan 2" }}</td>
+        <td>
+          {{ if .Params.categories }}
+          {{ range .Params.categories }}
+          <a href="{{ `categories/` | urlize }}{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+          {{ end }}
+        </td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
 </main>
 {{ end }}

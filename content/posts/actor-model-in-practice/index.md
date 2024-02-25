@@ -4,10 +4,7 @@ subtitle: Leveraging Elixir GenServer
 featuredImagePreview: actor-model.png
 date: 2021-11-29T08:54:51+09:00
 categories:
-  - computer
-tags:
-  - actor model
-  - elixir
+  - Computer
 ---
 
 {{<bundle-image name="elixir-lang.png" caption="Elixir Programming Language">}}

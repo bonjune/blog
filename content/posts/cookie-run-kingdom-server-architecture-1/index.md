@@ -2,7 +2,7 @@
 title: 쿠키런 킹덤 서버 아키텍처 1
 subtitle: Stateful vs. Stateless, 액터 모델 이해하기
 date: 2021-08-29T12:37:24+09:00
-categories: ["computer"]
+categories: ["Computer"]
 featuredImagePreview: bricks.jpg
 tags: ["computer", "systems", "backend", "architecture", "actor", "concurrent", "distributed", "akka"]
 ---

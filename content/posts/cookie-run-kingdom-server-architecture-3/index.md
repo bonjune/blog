@@ -2,9 +2,8 @@
 title: 쿠키런 킹덤 서버 아키텍처 3
 subtitle: 함수형 프로그래밍 패러다임
 date: 2021-08-31T14:55:09+09:00
-categories: ["computer"]
+categories: ["Computer"]
 featuredImagePreview: math.jpg
-tags: ["computer", "functional-programming", "domain-specific-language", "programming-language"]
 ---
 
 세번쨰 주제에서 함수형 프로그래밍에 대한 이야기가 눈에 띈다.
