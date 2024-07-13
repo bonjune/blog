@@ -1,8 +1,9 @@
 {{ define "main" }}
 <main>
   <div id="personal">
-    <img id="my-pic" src="{{- (resources.Get "/images/bongjun-washington-monument.jpg").RelPermalink -}}" width="60%"
-      alt="bongjun-in-washington-dc" />
+    <img id="my-pic" src="{{- (resources.Get
+    "/images/bongjun-washington-monument.jpg").RelPermalink -}}" width="60%"
+    alt="bongjun-in-washington-dc" />
 
     <section id="info">
       <h3>Contacts</h3>
@@ -16,13 +17,15 @@
 
       <h3>Education</h3>
       <p>
-        <strong>B.S.</strong> in Computer Science, Minor in Cybersecurity<br>
+        <strong>B.S.</strong> in Computer Science, Minor in Cybersecurity<br />
         KAIST, Korea (2018 - Present)
       </p>
 
       <h3>Experience</h3>
       <p>Software Developer, Datamaker (2020)</p>
-      <p>Served as a KATUSA tanker in Republic of Korea Army (2021.02 - 2022.08)</p>
+      <p>
+        Served as a KATUSA tanker in Republic of Korea Army (2021.02 - 2022.08)
+      </p>
     </section>
   </div>
 
@@ -40,12 +43,28 @@
       <tr>
         <td>{{ .Date.Format "2006 Jan 2" }}</td>
         <td>
-          {{ if .Params.categories }}
-          {{ range .Params.categories }}
+          {{ if .Params.categories }} {{ range .Params.categories }}
           <a href="{{ `categories/` | urlize }}{{ . | urlize }}">{{ . }}</a>
-          {{ end }}
-          {{ end }}
+          {{ end }} {{ end }}
         </td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+
+  <h2>Wiki</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range where .Site.RegularPages "Type" "wiki" }}
+      <tr>
+        <td>{{ .Date.Format "2006 Jan 2" }}</td>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
       </tr>
       {{ end }}

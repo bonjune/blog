@@ -25,11 +25,6 @@ body header {
     font-family: 'Times New Roman';
 }
 
-ul {
-    padding: 0;
-    list-style: none;
-}
-
 article figure {
     border: 1px red;
     margin: 0;
