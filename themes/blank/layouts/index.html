@@ -70,5 +70,12 @@
       {{ end }}
     </tbody>
   </table>
+
+  <h2>Bookmarks</h2>
+  <ol>
+    {{ range where .Site.RegularPages "Type" "bookmarks" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ol>
 </main>
 {{ end }}
